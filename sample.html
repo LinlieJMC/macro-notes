@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>精讲样张 v4｜中级宏观经济</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  .lesson{max-width:800px;margin:0 auto;padding:34px 26px 110px}
+  .bar{max-width:800px;margin:0 auto;padding:18px 26px 0;display:flex;gap:8px;align-items:center;
+    font-size:12px;color:var(--faint)}
+  .bar .sp{flex:1}
+  .bar button{border:1px solid var(--line-2);background:#fff;border-radius:5px;height:27px;padding:0 10px;
+    font-size:12px;color:var(--ink-2);cursor:pointer;font-family:inherit}
+  .bar button:hover{border-color:var(--accent);color:var(--accent)}
+
+  .lhead{display:flex;align-items:baseline;gap:10px;margin:46px 0 16px}
+  .lhead h2{font-family:Georgia,"Songti SC","SimSun",serif;font-size:1.42rem;margin:0;font-weight:600;line-height:1.5}
+
+  figure.slide{margin:0 0 24px}
+  figure.slide img{width:100%;border:1px solid var(--line-2);border-radius:2px;box-shadow:0 1px 8px rgba(31,35,40,.05)}
+
+  /* 译文：还原原页版式 */
+  .trans{background:#fff;border:1px solid var(--line);border-left:2px solid var(--accent);
+    padding:24px 28px 22px;margin:0;border-radius:2px}
+  .trans .tl{font-family:Georgia,"Songti SC","SimSun",serif;font-size:1.06rem;font-weight:600;
+    color:var(--ink);margin:0 0 16px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+  .trans .big{font-family:Georgia,"Songti SC","SimSun",serif;font-size:1.2rem;font-weight:600;
+    color:var(--ink);margin:8px 0;line-height:1.7}
+  .trans p{margin:9px 0;line-height:1.95;color:var(--ink-2)}
+  .trans .eq{display:block;text-align:center;font-family:ui-monospace,Menlo,Consolas,monospace;
+    font-size:.94rem;background:var(--paper-2);border:1px solid var(--line);padding:11px 8px;
+    margin:14px 0;color:var(--ink);letter-spacing:.01em}
+  .trans .anno{font-size:12.5px;color:var(--muted);line-height:1.85;margin:16px 0 0;
+    padding-top:12px;border-top:1px dashed var(--line)}
+  .trans .anno b{font-weight:600;color:var(--ink-2)}
+  .hl{color:var(--accent);font-weight:600;font-style:normal}
+
+  /* 阐释：独立栏目，默认折叠 */
+  details.exp{border:1px solid var(--line);background:#fff;margin:16px 0 0;border-radius:2px}
+  details.exp summary{display:flex;align-items:center;gap:10px;padding:13px 20px;
+    background:var(--paper-2);cursor:pointer;list-style:none;user-select:none}
+  details.exp summary::-webkit-details-marker{display:none}
+  details.exp summary .lab{font-family:Georgia,"Songti SC","SimSun",serif;font-size:.98rem;
+    font-weight:600;color:var(--accent);letter-spacing:.08em}
+  details.exp summary .cnt{font-size:11.5px;color:var(--faint);letter-spacing:.02em}
+  details.exp summary::after{content:"展开";margin-left:auto;font-size:11.5px;color:var(--accent);letter-spacing:.06em}
+  details.exp[open] summary::after{content:"收起"}
+  details.exp[open] summary{border-bottom:1px solid var(--line)}
+  details.exp .body{padding:22px 24px 6px}
+  details.exp .body p{margin:0 0 16px;line-height:1.96;color:var(--ink);text-indent:2em}
+  details.exp .body p.note{font-size:.875rem;color:var(--muted);border-top:1px solid var(--line);
+    padding-top:15px;margin-top:22px}
+
+  /* 行内强调：三种颜色 */
+  details.exp .body strong{font-weight:650;color:var(--accent)}                 /* 关键结论：赭 */
+  details.exp .body b{font-weight:600;color:var(--navy)}                        /* 术语：藏青 */
+  details.exp .body .num{font-family:Georgia,serif;font-weight:600;color:#4F6146;font-size:1.03em} /* 数字：墨绿 */
+
+  .sep{border:0;border-top:1px solid var(--line);margin:0}
+  @media(max-width:700px){.lesson{padding:20px 16px 80px}.trans{padding:18px 18px 16px}
+    details.exp .body{padding:18px 16px 4px}}
+</style>
+</head>
+<body class="lang-both">
+<header class="topbar">
+  <div class="brand">中级宏观经济<i>精讲样张 v4</i></div>
+  <div class="spacer"></div>
+  <a class="btn" href="index.html">返回站点</a>
+</header>
+
+<div class="bar">
+  <span>阐释</span>
+  <div class="sp"></div>
+  <button data-exp="open">全部展开</button>
+  <button data-exp="closed">全部折叠</button>
+</div>
+
+<div class="lesson">
+
+  <!-- ===== 过渡页 ===== -->
+  <div class="lhead"><span class="pill">1-35</span><h2>What's behind</h2></div>
+
+  <figure class="slide">
+    <img src="assets/slides/1-35.webp" alt="第 1 章第 35 页">
+  </figure>
+
+  <div class="trans">
+    <p class="big">背后是什么</p>
+    <p class="big">我们有模型！</p>
+  </div>
+
+  <hr class="sep">
+
+  <!-- ===== 概念页 ===== -->
+  <div class="lhead"><span class="pill">5-22</span><h2>Seigniorage（铸币税）</h2></div>
+
+  <figure class="slide">
+    <img src="assets/slides/5-22.webp" alt="第 5 章第 22 页">
+  </figure>
+
+  <div class="trans">
+    <div class="tl">铸币税</div>
+    <p>政府若要增加支出而不增税、不发债，可以印钞。</p>
+    <p>印钞所取得的「收入」称为铸币税。</p>
+    <p><span class="hl">通货膨胀税</span>：为取得收入而印钞会引起通货膨胀。通货膨胀相当于对持有货币的人征税。</p>
+  </div>
+
+  <details class="exp">
+    <summary><span class="lab">阐释</span><span class="cnt">约 230 字</span></summary>
+    <div class="body">
+      <p>前面的证据说明货币增长决定通胀，但还没有回答政府为什么愿意扩张货币。这一页给出财政上的理由：在<strong>既不增税也不发债</strong>的前提下取得资源。</p>
+      <p>机制是通货膨胀把持币者的购买力转移给政府。税基是公众愿意持有的<b>实际货币余额</b>，税率是通胀率，收入大致为两者之积。它不需要立法授权，也难以规避，负担更多落在以现金形式持有财富的人身上。</p>
+      <p>需要注意的是<strong>税基会随税率缩小</strong>。通胀越高，持有现金的机会成本越高，公众减少实际货币余额，政府必须更快印钞才能维持同样的实际支出。<strong>恶性通胀的自我加速</strong>由此而来，而不只是「印得太多」。</p>
+      <p>量级上，美国约占财政收入的 <span class="num">3%</span>，意大利、希腊在特定时期超过 <span class="num">10%</span>，恶性通胀国家则以此为主要来源。</p>
+    </div>
+  </details>
+
+  <hr class="sep">
+
+  <!-- ===== 公式页 ===== -->
+  <div class="lhead"><span class="pill">5-15</span><h2>数量方程的增长率形式</h2></div>
+
+  <figure class="slide">
+    <img src="assets/slides/5-15.webp" alt="第 5 章第 15 页">
+  </figure>
+
+  <div class="trans">
+    <div class="tl">数量方程的增长率形式</div>
+    <p>π（希腊字母 pi）表示通货膨胀率：</p>
+    <span class="eq">π = ΔP / P</span>
+    <p>上一页的结果（流通速度不变，故 ΔV/V = 0）：</p>
+    <span class="eq">ΔM / M = π + ΔY / Y</span>
+    <p>从中解出 π：</p>
+    <span class="eq">π = ΔM / M − ΔY / Y</span>
+  </div>
+
+  <details class="exp">
+    <summary><span class="lab">阐释</span><span class="cnt">约 600 字</span></summary>
+    <div class="body">
+      <p>上一页把数量方程改写成增长率形式 ΔM/M + ΔV/V = ΔP/P + ΔY/Y。那一步只是<strong>恒等式的变形</strong>，对任何数据都成立，本身不预测任何事情。要使它成为关于通货膨胀的理论，还需要一个假设：<b>流通速度为常数</b>。</p>
+
+      <p>在这一假设下 ΔV/V = 0，方程退化为 ΔM/M = ΔP/P + ΔY/Y。把 ΔP/P 记为 π 并移项，得到 π = ΔM/M − ΔY/Y。</p>
+
+      <p>这个式子的含义是，<strong>货币增长中超出产出增长的部分，全部转化为物价上涨</strong>。用于支持交易的那部分货币增长不产生通胀，只有超出的部分才产生。</p>
+
+      <p>产出增长本身需要货币增长来配合。交易量随产出增加，若货币量不变，每一单位货币的周转次数必须上升；而 V 被假设为常数，所以货币量必须同步增加。M 增长 <span class="num">7%</span>、Y 增长 <span class="num">3%</span> 时，π 是 <span class="num">4%</span>。</p>
+
+      <p>这个式子的预测是<strong>「变化对变化」，不是「水平对水平」</strong>。它不主张通胀率等于货币增长率，而是主张货币增长率每提高一个百分点，通胀率也提高一个百分点。5-17 的备注对此有专门说明，这一点在引用时经常被忽略。</p>
+
+      <p>假设不成立时会怎样，2008 年之后提供了一个清楚的例子。美国基础货币扩张数倍，M2 增长温和，通胀长期低于目标，原因是 <b>V 大幅下降</b>：银行持有大量超额准备金，货币没有进入流通。这不是数量论被证伪，而是它的前提在短期内不成立。数量论刻画长期关系，长期中 V 的波动相互抵消、均值相对稳定；短期内通胀与货币增长甚至可能负相关，因为央行对通胀作逆周期反应，<strong>因果方向与长期相反</strong>。</p>
+
+      <p class="note">常见的一处误读是把 π 与 ΔM/M 直接比较。另一处是认为零通胀要求零货币增长；在产出增长 3% 的经济中，零通胀要求货币增长 <span class="num">3%</span>，而不是零。</p>
+    </div>
+  </details>
+
+  <hr class="sep">
+
+  <!-- ===== 图形页 ===== -->
+  <div class="lhead"><span class="pill">6-37</span><h2>实际汇率如何决定</h2></div>
+
+  <figure class="slide">
+    <img src="assets/slides/6-37.webp" alt="第 6 章第 37 页">
+  </figure>
+
+  <div class="trans">
+    <div class="tl">实际汇率如何决定</div>
+    <p>S 与 I 都不取决于 ε，所以资本净流出曲线是垂直的。</p>
+    <p>ε 调整到使 NX 等于资本净流出 S − I。</p>
+    <p class="anno"><b>图中</b>　纵轴为实际汇率 ε，横轴为净出口 NX；垂直线为资本净流出 S − I，向下倾斜的曲线为 NX(ε)，交点处为 ε₁ 与 NX₁。教师备注另指出，图左下角处 NX 不一定等于零。</p>
+  </div>
+
+  <details class="exp">
+    <summary><span class="lab">阐释</span><span class="cnt">约 540 字</span></summary>
+    <div class="body">
+      <p>上一页把均衡条件写成 NX(ε) = S − I，但没有说明这个等式为什么一定有解、ε 又是怎样被推到那个位置的。这一页用图形回答，同时解释两条线的形状为什么不同。</p>
+
+      <p>NX(ε) 向下倾斜：ε 上升意味着本国商品相对外国商品变贵，出口减少、进口增加，净出口随之下降。S − I 则<strong>与 ε 无关</strong>：国民储蓄由产出、税收、政府购买决定，投资由世界利率决定，两者都不含 ε。因此在以 ε 为纵轴、NX 为横轴的平面上，S − I 是一条<b>垂直线</b>，其位置由财政政策与世界利率决定，不随 ε 移动。</p>
+
+      <p>两条线必须相交，理由不是行为假设，而是<strong>会计恒等式 NX = S − I</strong>。若某个 ε 下 NX(ε) 与 S − I 不等，外汇市场上的本币供求就不平衡：ε 偏高时本国商品太贵，净出口小于资本净流出，本币供给超过需求，本币贬值，ε 下降；偏低时反向调整。这个<b>负反馈</b>把 ε 推向交点。</p>
+
+      <p>由此可以读出模型的因果方向：<strong>ε 是被动调整的变量，S − I 是主动的</strong>。改变储蓄或投资的政策改变的是 ε，而不是净出口的均衡水平。</p>
+
+      <p>国内财政扩张使 S 下降，垂直线左移，净出口减少，同时 ε 上升；国外利率上升使投资下降，垂直线右移，净出口增加，同时 ε 下降。不改变 S − I 的政策，包括关税与配额，<strong>不能改变贸易余额，只能改变汇率</strong>。</p>
+
+      <p>读图时还要注意，横轴原点对应 NX = 0，但均衡点未必落在原点。S 大于 I 时垂直线在原点右侧，均衡为顺差；S 小于 I 时在左侧，均衡为逆差。教材把初始均衡画成零，只是简化。</p>
+
+      <p class="note">把「ε 决定净出口」当作因果，是理解这一页时最容易出现的偏差。更准确的说法是：S − I 决定净出口的均衡水平，ε 是使净出口等于该水平的价格。因果颠倒会得出「本币升值可以改善贸易余额」这类与模型相反的结论。</p>
+    </div>
+  </details>
+
+</div>
+
+<script>
+(function(){
+  var pref = localStorage.getItem('exp-pref') || 'closed';
+  function apply(){
+    document.querySelectorAll('details.exp').forEach(function(d){
+      d.open = (pref === 'open');
+    });
+  }
+  apply();
+  document.querySelectorAll('.bar button').forEach(function(b){
+    b.addEventListener('click', function(){
+      pref = b.dataset.exp;
+      localStorage.setItem('exp-pref', pref);
+      apply();
+    });
+  });
+})();
+</script>
+</body>
+</html>
